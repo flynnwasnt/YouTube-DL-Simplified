@@ -41,3 +41,10 @@ To run the script, simply type ./download.sh.
 ```
 ./download.sh
 ```
+
+## Notes
+
+* This project is a new version of my YouTube-DL-Simplified project. If you want the archive for that, it's [here](https://github.com/flynnwasnt/YouTube-DL-Simplified-OLD).
+* If you encounter any bugs, make sure it's not a problem with YouTube-dl (I've had problems with the version downloaded directly from Ubuntu's repository).
+* Feel free to suggest features or report bugs with my script in the Issues tab.
+* Have a nice day. :)
