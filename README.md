@@ -4,7 +4,7 @@ Makes downloading with YouTube-dl simple.
 
 ## Prerequisites
 
-You will need ffmmpeg and Youtube-DL, installation varies depending on what OS you're on. 
+You will need ffmpeg and Youtube-DL, installation varies depending on what OS you're on. 
 
 Ubuntu:
 ```
