@@ -21,15 +21,23 @@ macOS (assumes [Brew](https://brew.sh/) is installed):
 brew install ffmpeg youtube-dl
 ```
 
-### Installation
+## Installation
 
 You can download this script through the download button for this repository or by running:
 ```
 git clone https://github.com/flynnwasnt/YouTube-DL-Simplified.git
 ```
 
-## Acknowledgments
+The script will need to be marked as executable before you can run it. You can do this by running:
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+```
+chmod +x ./download.sh
+```
+
+## Running the script
+
+To run the script, simply type ./download.sh.
+
+```
+./download.sh
+```
