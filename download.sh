@@ -5,7 +5,8 @@ formatdownload () {
     echo "What file format would you like to download?"
     echo "1. MP4"
     echo "2. MP3"
-    read format
+    read -s -n 1 format
+    printf "\n"
 
     if [ "$format" = "1" ] || [ "$format" = "MP4" ] || [ "$format" = "mp4" ]
     then
@@ -13,6 +14,8 @@ formatdownload () {
     else
 	    format=MP3
     fi
+
+    echo "Downloading $format..."
 
     if [[ "$format" = "MP4" ]]
     then
